@@ -1,0 +1,22 @@
+<script>
+	function change_url_without_reload( title, url ) {
+		if( typeof ( history.pushState ) !== 'undefined' ) {
+			history.pushState( { Page: title, Url: url }, title, url );
+		}
+	}
+
+
+	function randnumbers() {
+		var rand       = Math.floor( Math.random() * ( 1000 - 10 ) ) + 10;
+		var parameters = '?random-number=' + rand;
+		change_url_without_reload( 'Update ' + rand, parameters )
+		document.getElementById( 'result' ).innerHTML = location.href;
+	}
+</script>
+
+<button type="button" onclick="javascript:randnumbers();">Update Parameters With Random Numbers</button>
+
+
+
+<h3>Current URL</h3>
+<pre id="result"></pre>
