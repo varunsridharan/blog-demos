@@ -2,3 +2,28 @@
 | --- | --- |
 | Content from cell 1 | Content from cell 2 |
 | Content in the first column | Content in the second column |
+
+
+`Column 2` is Right aligned
+
+| Column 1 | Column 2 | Column 3 |
+| --- | ---: | --- |
+| Content | I am right alinged | Content |
+| Content | I am right alinged | Content |
+| Content | I am right alinged | Content |
+
+`Column 2` is Right aligned
+
+| Column 1 | Column 2 | Column 3 |
+| --- | ---: | --- |
+| Content | I am right alinged | Content |
+| Content | I am right alinged | Content |
+| Content | I am right alinged | Content |
+
+`Column 2` is Left aligned
+
+| Column 1 | Column 2 | Column 3 |
+| --- | :--- | --- |
+| Content | I am left alinged | Content |
+| Content | I am left alinged | Content |
+| Content | I am left alinged | Content |
