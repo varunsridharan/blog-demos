@@ -8,7 +8,7 @@
 
 ~I am Striked Out~
 
-This line has a `inline` codeblock
+This line has a `inline` code block
 
 > Blockquoted Text
 
